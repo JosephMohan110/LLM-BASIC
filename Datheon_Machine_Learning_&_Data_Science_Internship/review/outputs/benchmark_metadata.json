@@ -1,0 +1,16 @@
+{
+  "dataset": "data.csv",
+  "total_rows": 10,
+  "binary_rows": 9,
+  "excluded_neutral_rows": 1,
+  "class_counts": {
+    "negative": 4,
+    "positive": 5
+  },
+  "train_rows": 6,
+  "test_rows": 3,
+  "test_size": 0.25,
+  "random_state": 42,
+  "tfidf_max_features": 5000,
+  "holdout_warning": "The local dataset is very small; holdout metrics are illustrative and not reliable estimates of generalization."
+}
